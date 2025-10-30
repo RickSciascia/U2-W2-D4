@@ -43,4 +43,19 @@ $new-theme-colors: (
   epicode-3: $epicode-3,
 );
 $theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+$new-grid-breakpoints: (
+  3xl: 1600px,
+  4xl: 1800px,
+);
+$grid-breakpoints: map-merge($grid-breakpoints, $new-grid-breakpoints);
+$new-container-max-widths: (
+  3xl: 1520px,
+  4xl: 1720px,
+);
+$container-max-widths: map-merge(
+  $container-max-widths,
+  $new-container-max-widths
+);
+
 @import "./scss/bootstrap.scss";
