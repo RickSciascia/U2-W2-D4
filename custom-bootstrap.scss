@@ -23,9 +23,12 @@ $new-border-widths: (
 );
 $border-widths: map-merge($border-widths, $new-border-widths);
 
-$input-btn-padding-y: 0.75rem;
-$input-btn-padding-x: 2.5rem;
+$btn-padding-y: 0.75rem;
+$btn-padding-x: 2.5rem;
 $grid-gutter-width: 0.5rem;
+$badge-border-radius: 75rem;
+$input-border-radius: 75rem;
+$btn-border-radius: 75rem;
 
 $new-danger: #ff0077;
 $new-info: #00ffea;
